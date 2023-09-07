@@ -93,6 +93,59 @@
         .skill-set li:hover, .accomplishments li:hover {
             background: #2c3e50;
         }
+		
+		 /* Mobile First Styles (up to 768px) */
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .left, .right {
+        width: 100%;
+    }
+    
+    .me-img {
+        margin: 20px auto;
+        width: 200px;
+        height: 200px;
+        background-size: cover;
+    }
+
+    /* Tablet and Up (from 768px) */
+    @media (min-width: 768px) {
+        .wrapper {
+            flex-direction: row;
+        }
+        
+        .left {
+            width: 40%; /* Increase the width of the left section */
+        }
+        
+        .right {
+            width: 60%;
+        }
+        
+        .me-img {
+            width: 250px;
+            height: 250px;
+        }
+    }
+    
+    /* Desktop (from 992px) */
+    @media (min-width: 992px) {
+        .left {
+            width: 35%;
+        }
+        
+        .right {
+            width: 65%;
+        }
+        
+        .me-img {
+            width: 300px;
+            height: 300px;
+        }
+    }
     </style>
 </head>
 
