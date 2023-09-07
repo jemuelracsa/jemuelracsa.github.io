@@ -1,88 +1,323 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>VLF21</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jemuel Racsa's Profile</title>
+
+    <!-- Include Google Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic|Open+Sans:300,400,500,700|Waiting+for+the+Sunrise|Shadows+Into+Light' rel='stylesheet' type='text/css'>
+
+    <style>
+        /* Your CSS code here... */
+        *, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+ }
+
+html
+{
+	font-size:100%;
+}
+
+body
+{
+	-webkit-font-smoothing:antialiased;
+	color:#333332;
+	font-family:Lora, serif;
+	font-size:18px;
+	font-weight:400;
+	line-height:1.4;
+	text-rendering:optimizeLegibility;
+}
+
+.skill-set li:hover
+{
+	background:#3498db;
+}
+
+h1
+{
+	color:rgba(0,0,0,.75);
+}
+
+.wrapper
+{
+	height:100%;
+}
+
+.left
+{
+	background-color:rgba(0,0,0,.025);
+	border-right:1px solid rgba(0,0,0,.05);
+	float:right;
+	height:100%;
+	margin-left:-1px;
+	min-width:256px;
+	position:fixed;
+	width:33.33%;
+  
+}
+
+.right
+{
+	float:right;
+	height:100%;
+	position:relative;
+	width:66.66%;
+}
+
+
+.name-hero
+{
+	background:rgba(0,0,0,.001);
+	bottom:0;
+	height:290px;
+	left:0;
+	margin:auto;
+	position:absolute;
+	right:0;
+	top:0;
+	width:85%;
+}
+
+.me-img
+{
+	background:url(https://media-exp1.licdn.com/dms/image/C4E03AQGnLq_IB_mf8Q/profile-displayphoto-shrink_400_400/0/1631022739752?e=1648684800&v=beta&t=eICUjHeH_g9GQEItmEMK1j2gCADwqfjrlccSD_5za58) no-repeat center center ;
+	background-size:100%;
+  background-position:0px;
+	border-radius:100%;
+	height:150px;
+	margin:0 auto;
+	position:relative;
+	width:150px;
+}
+
+.name-hero h1
+{
+	font-family:Open Sans, sans-serif;
+	font-size:1.5em;
+	text-align:center;
+}
+
+.name-hero h1 em
+{
+	color:rgba(0,0,0,.3);
+	font-style:normal;
+	font-weight:700;
+}
+
+.name-hero p
+{
+	color:rgba(0,0,0,.75);
+	font-size:.75em;
+	line-height:1.5;
+	margin:0 8px 0 0;
+	text-align:center;
+}
+
+.name-hero .name-text
+{
+	margin:0 auto;
+	width:85%;
+}
+
+.inner
+{
+	margin:0 auto;
+	max-width:975px;
+	padding:3em;
+}
+
+.inner h1
+{
+	font-size:1.75em;
+}
+
+.inner p
+{
+	color:rgba(0,0,0,.5);
+}
+
+.inner p em
+{
+	color:rgba(0,0,0,1);
+	font-style:normal;
+}
+
+.inner section
+{
+	margin:100px auto;
+}
+
+ul
+{
+	list-style-type:none;
+	margin-top:-10px;
+	max-width:570px;
+	padding:0;
+}
+
+.skill-set li
+{
+	background:rgba(0,0,0,.75);
+	border-radius:5px;
+	color:#FFF;
+	display:inline-block;
+	list-style:none;
+	margin:15px 15px 0 0;
+	padding:10px;
+	text-align:justify;
+}
+
+@media screen and (max-width: 48em) {
+	.right,.left
+	{
+		float:none;
+    position:relative !important;
+		width:100%;
+    min-height:500px;
+	}
+  .handmade {
+  text-align:center !important;
+  margin-top:0px !important;
+}
+
+@media screen and (max-width: 75em) {
+    body
+{ font-size:16px;}
+}
+
+@media screen and (max-width: 60em) {
+    body
+{ font-size:14px;}
+}
+.clearfix:after {
+   content: " "; /* Older browser do not support empty content */
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+.handmade {
+  text-align:right;
+  margin-top:100px;
+}
+.handmade em {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 1.25em;
+  margin-left:5px;
+}
+
+        /* ... rest of the CSS ... */
+
+    </style>
 </head>
+<body>
+<div class="wrapper clearfix">
+    <div class="left">
+        <div class="name-hero">
+             <div class="me-img" style="background-image:url('https://jemuelracsa.github.io/images/profile.jpg');"></div>
+            <div class="name-text">
+                <h1>Jemuel <em>Racsa</em></h1>
+                <p>Purok 3, South Poblacion, Medina, Misamis Oriental, Philippines</p>
+                <p>jemuel.racsa@gmail.com</p>
+                <p>+63 910 123 8668</p>
+                <p><a href="https://www.facebook.com/jemuel.racsa/" target="_blank">Facebook Profile</a></p>
+            </div>
+        </div>
+    </div>
+    <div class="right">
+        <div class="inner">
+            <section>
+				<h1>Employment</h1>
+				<p><strong>March 2014 – May 2014</strong> | <em>OJT • System Programmer • Coca-Cola FEMSA Philippines</em></p>
+				<ul>
+					<li>Improved the security level of the company by placing a monitoring system that logs every person that enters the company premises.</li>
+				</ul>
 
+				<p><strong>January 2015 – May 2018</strong> | <em>Jr. System Programmer • IT-Department • Nutratech Biopharma Inc</em></p>
+				<ul>
+					<li>Developed and Deployed an inventory system to complement the existing Accounting System of the company.</li>
+					<li>Developed a mobile app that serves as a ‘quick reporting’ tool for agents assigned in the field.</li>
+					<li>Improved the company’s security system by placing an automated disaster-control backups.</li>
+					<li>Improved the efficiency of employees by extracting ready-to-print reports/data from their existing accounting system.</li>
+				</ul>
 
-<body style="font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, 'sans-serif'; font-size: 9pt; margin: 0">
-    <table id="wrapper" width="400" border="0" cellspacing="0" cellpadding="0">
-  <tbody>
-    <tr>
-      <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
-  <tbody>
-    <tr>
-      <td id="socmed" align="right" height="24px" style="padding-right: 10px; padding-top: 10px">
-          <table width="100px" border="0" cellspacing="0" cellpadding="0">
-  <tbody>
-    <tr>
-		<td><a href="https://www.avvo.com/attorneys/89103-nv-sandy-van-4219015.html#client_reviews" target="_blank"><img src="images/avvo.png" height="18px"></a></td>
-		<td><a href="https://www.facebook.com/VanLawFirm/" target="_blank"><img src="images/facebook.png" height="18px"></a></td>
-		<td><a href="https://www.google.com/search?ei=MuBrWoz1JIbPvgTe1YnICg&q=van+law+firm&oq=van+law+firm&gs_l=psy-ab.3..0i71k1l4.0.0.0.127313.0.0.0.0.0.0.0.0..0.0....0...1c..64.psy-ab..0.0.0....0.GlP3_WuKXzw" target="_blank"><img src="images/google.png" height="18px"></a></td>
-		<td><a href="https://www.yelp.com/biz/van-law-firm-las-vegas" target="_blank"><img src="images/yelp.png" height="18px"></a></td>
-    </tr>
-  </tbody>
-</table></td>
-    </tr>
-    <tr>
-      <td id="info"><table width="100%" border="0" cellspacing="0" cellpadding="0">
-  <tbody>
-    <tr>
-      <td id="logo" width="100px" style="text-align: center"><img src="images/VLF_AniLogo5.gif" height="90px"></td>
-      <td id="name" style="padding-left: 5px">
-          <table width="100%" border="0" cellspacing="0" cellpadding="0">
-  <tbody>
-    <tr>
-      <td><span style="font-size: 11pt; color: #292f3d; font-weight: bold; text-transform: uppercase">Sandy Van</span><span style="font-size: 8pt; letter-spacing: 2pt; color: #CF6622; text-transform: uppercase; padding-left: 5pt">| attorney |</span><br><span><a href="mailto:sandy@vanlawfirm.com" style="text-decoration: none; color: inherit; line-height: 2">sandy@vanlawfirm.com</a></span></td>
-    </tr>
-    <tr>
-      <td id="address" style="padding-bottom: 10px; padding-top: 8px"><table width="100%" border="0" cellspacing="0" cellpadding="0">
-  <tbody>
-    <tr>
-      <td style="font-size: 8pt; text-align: left"><span style="font-weight: bold;color: #CF6622">NEVADA</span><br><a href="https://www.google.com/maps/place/1290+S+Jones+Blvd,+Las+Vegas,+NV+89146,+USA/@36.1567614,-115.2261645,17z/data=!3m1!4b1!4m5!3m4!1s0x80c8c1175a714cb9:0x999a978f8df07a2d!8m2!3d36.1567571!4d-115.2239758" style="text-decoration: none; color: inherit">1290 S. Jones Blvd.<br>Las Vegas, NV 89146</a><br><span style="font-weight: bold">Direct <a href="tel:+17021234567" style="text-decoration: none; color: inherit; font-weight: normal">702-123-4567</a></span><br><span style="font-weight: bold">Office <a href="tel:+17025291011" style="text-decoration: none; color: inherit; font-weight: normal">702-529-1011</a></span><br>
-<span style="font-weight: bold">Fax  <a href="tel:+17028004662" style="text-decoration: none; color: inherit; font-weight: normal">702-800-4662</a></span></td>
-        
-      <td style="font-size: 8pt; text-align: left"><span style="font-weight: bold;color: #CF6622">WASHINGTON</span><br><a href="https://www.google.com/maps/place/1615+4th+Ave+E,+Olympia,+WA+98506,+USA/@47.0457985,-122.8819632,17z/data=!3m1!4b1!4m5!3m4!1s0x549174d8a4433ac5:0x4bcce1ea8a381bf4!8m2!3d47.0457949!4d-122.8797745" style="text-decoration: none; color: inherit">1615 4th Ave E.<br>Olympia, WA 98506</a><br><span style="font-weight: bold">Office <a href="tel:+13602444444" style="text-decoration: none; color: inherit; font-weight: normal">360-244-4444</a></span><br><span style="font-weight: bold">Fax <a href="tel:+13602080248" style="text-decoration: none; color: inherit; font-weight: normal">360-208-0248</a></span></td>   
-    </tr>
-    
-  </tbody>
-</table>
-</td>
-    </tr>
-  </tbody>
-</table>
-          </td>
-    </tr>
-  </tbody>
-</table>
-</td>
-    </tr>  
-      
-    <tr>
-      <td id="achieve" bgcolor="#292F3D"><table width="100%" border="0" cellspacing="0" cellpadding="0">
-  <tbody>
-    <tr>
-      <td align="center" style="padding: 5px"><img src="images/rating2021.png" width="68px"></td>
-        <td style="color: #FFAC6A; text-align: center; font-size: 7pt; text-transform:uppercase; line-height: 12pt; padding: 10px 5px 10px 5px">
-        2019 inc 5000 #398 fastest growing businesses in the US<br>
-        2019 super lawyer rising stars award<br>
-        2019 avvo's client choice award<br>
-        2019 nevada business magazine legal elite award<br>
-        2018 people like us on yelp award
-        </td>
-    </tr>
-  </tbody>
-</table>
-</td>
-    </tr>
-      
-  </tbody>
-</table>
-</td>
-    </tr>
-  </tbody>
-</table>
-    
+				<p><strong>June 2018 – June 2019</strong> | <em>Admin Officer • Admin-Department • Merav Pharmaceutical Enterprise Inc</em></p>
+
+				<p><strong>November 2020 – Present</strong> | <em>Zapier Specialist / Programmer • Admin-Department • Van Law Firm, Nevada USA (Work from Home)</em></p>
+				<ul>
+					<li>Automated sending of documents to capture client signature via ‘Pandadoc’ and ‘Filevine’.</li>
+					<li>Automated the workflow for HR’s hiring procedure.</li>
+					<ul>
+						<li>Applicant Tracking</li>
+						<li>Automatic Interview Schedule Reminder</li>
+					</ul>
+				</ul>
+
+				<p><strong>June 2021 – Present</strong> | <em>Zapier Specialist / Programmer • Admin-Department • PMHOA, California USA (Work from Home)</em></p>
+			</section>
+
+            <section>
+				<h1>Technical Skills</h1>
+				
+				<h2>Programming Languages:</h2>
+				<ul class="skill-set">
+					<li>VB.Net</li>
+					<li>C#</li>
+					<li>.Net</li>
+					<li>C</li>
+					<li>Java</li>
+					<li>Visual Basic</li>
+					<li>AngularJS</li>
+					<li>Javascript</li>
+				</ul>
+				
+				<h2>Databases Management:</h2>
+				<ul class="skill-set">
+					<li>SQL Server</li>
+					<li>Postgresql</li>
+					<li>MySQL</li>
+					<li>Firebase DB</li>
+				</ul>
+				
+				<h2>Design & IDE Tools:</h2>
+				<ul class="skill-set">
+					<li>MS Visual Studio</li>
+					<li>Android Studio</li>
+					<li>Eclipse</li>
+					<li>NetBeans</li>
+				</ul>
+				
+				<h2>Systems:</h2>
+				<ul class="skill-set">
+					<li>Windows Server 2016</li>
+					<li>Linux/Unix</li>
+				</ul>
+			</section>
+			
+            <section>
+                <h1>Education</h1>
+                <p>MSU-Iligan Institute of Technology, Iligan City</p>
+                <p><em>Bachelor of Science in Computer Science</em><br>Major in Software Engineering</p>
+            </section>
+            <section>
+				<h1>Accomplishments</h1>
+				<ul class="skill-set">
+					<li>Developed Web Applications to handle inventory management in company warehouses</li>
+					<li>Led, participated in the design, testing, and deployment of client-server applications in the company</li>
+					<li>Trained and mentored junior programmers in programming methodologies and best practices.</li>
+					<li>Setup automation workflows for a Personal Injury – Law Firm in Nevada, USA</li>
+				</ul>
+			</section>
+            <section>
+                <div class="handmade">
+                   
+                </div>
+            </section>
+        </div>
+    </div>
+</div>
+    <!-- JavaScript code remains unchanged -->
 </body>
 </html>
