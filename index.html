@@ -93,59 +93,56 @@
         .skill-set li:hover, .accomplishments li:hover {
             background: #2c3e50;
         }
-		
-		 /* Mobile First Styles (up to 768px) */
-    .wrapper {
-        display: flex;
-        flex-direction: column;
-    }
-    
-    .left, .right {
-        width: 100%;
-    }
-    
-    .me-img {
-        margin: 20px auto;
-        width: 200px;
-        height: 200px;
-        background-size: cover;
-    }
 
-    /* Tablet and Up (from 768px) */
-    @media (min-width: 768px) {
         .wrapper {
-            flex-direction: row;
+            display: flex;
+            flex-direction: column;
         }
-        
-        .left {
-            width: 40%; /* Increase the width of the left section */
+
+        .left, .right {
+            width: 100%;
         }
-        
-        .right {
-            width: 60%;
-        }
-        
+
         .me-img {
-            width: 250px;
-            height: 250px;
+            margin: 20px auto;
+            width: 200px;
+            height: 200px;
+            background-size: cover;
         }
-    }
-    
-    /* Desktop (from 992px) */
-    @media (min-width: 992px) {
-        .left {
-            width: 35%;
+
+        @media (min-width: 768px) {
+            .wrapper {
+                flex-direction: row;
+            }
+
+            .left {
+                width: 40%;
+            }
+
+            .right {
+                width: 60%;
+            }
+
+            .me-img {
+                width: 250px;
+                height: 250px;
+            }
         }
-        
-        .right {
-            width: 65%;
+
+        @media (min-width: 992px) {
+            .left {
+                width: 35%;
+            }
+
+            .right {
+                width: 65%;
+            }
+
+            .me-img {
+                width: 300px;
+                height: 300px;
+            }
         }
-        
-        .me-img {
-            width: 300px;
-            height: 300px;
-        }
-    }
     </style>
 </head>
 
@@ -162,68 +159,77 @@
         <div class="right">
             <h1>Employment</h1>
 
-			<p><strong>June 2021 – Present | PMHOA, California USA, Admin-Department</strong><br>
-			<em>Zapier Specialist / Programmer</em> (Work from Home)</p>
-			<ul>
-				<li>Developed a client portal to streamline communication and provide accessible resources for members.</li>
-			</ul>
+	    <p><strong>May 2024 – Present | Peter Swain Inc., Tech Department, London UK</strong><br>
+            <em>Software Developer</em> (Work from Home)</p>
+            <ul>
+                <li>Developed an Engagement Monitoring System to track and analyze user interactions across the company's digital ecosystem.</li>
+                <li>The system segments users into four categories — Green, Amber, Red, and Black — based on activity frequency and recency.</li>
+                <li>Built a real-time dashboard to visually represent engagement health across cohorts, highlighting members who require re-engagement.</li>
+                <li>Integrated the system with third-party tools like Go High Level and Zoom using custom APIs and webhooks to collect attendance, logins, and other behavioral data.</li>
+                <li>Implemented automation triggers to change a user’s engagement status and update CRM fields accordingly, improving retention efforts.</li>
+                <li>Optimized performance for over 100 concurrent users using efficient database queries, webhook handlers, and async task runners.</li>
+            </ul>
+		
+            <p><strong>June 2021 – 2024 | PMHOA, California USA, Admin-Department</strong><br>
+            <em>Zapier Specialist / Programmer</em> (Work from Home)</p>
+            <ul>
+                <li>Developed a client portal to streamline communication and provide accessible resources for members.</li>
+            </ul>
 
-			<p><strong>November 2020 – Present | Van Law Firm, Nevada USA, Admin-Department</strong><br>
-			<em>Zapier Specialist / Programmer</em> (Work from Home)</p>
-			<ul>
-				<li>Automated sending of documents to capture client signature via ‘Pandadoc’ and ‘Filevine’.</li>
-				<li>Automated the workflow for HR’s hiring procedure.</li>
-				<ul>
-					<li>Applicant Tracking</li>
-					<li>Automatic Interview Schedule Reminder</li>
-				</ul>
-			</ul>
-
-			<p><strong>June 2018 – June 2019 | Merav Pharmaceutical Enterprise Inc., Admin-Department</strong><br>
-			<em>Admin Officer</em></p>
-
-			<p><strong>January 2015 – May 2018 | Nutratech Biopharma Inc., IT-Department</strong><br>
-			<em>Jr. System Programmer</em></p>
-			<ul>
-				<li>Developed and Deployed an inventory system to complement the existing Accounting System of the company.</li>
-				<li>Developed a mobile app that serves as a ‘quick reporting’ tool for agents assigned in the field.</li>
-				<li>Improved the company’s security system by placing an automated disaster-control backups.</li>
-				<li>Improved the efficiency of employees by extracting ready-to-print reports/data from their existing accounting system.</li>
-			</ul>
-
-			<p><strong>March 2014 – May 2014 | Coca-Cola FEMSA Philippines</strong><br>
-			<em>OJT - System Programmer</em></p>
-			<p>Improved the security level of the company by placing a monitoring system that logs every person that enters the company premises.</p>
-
-
+            <p><strong>November 2020 – November 2023 | Van Law Firm, Nevada USA, Admin-Department</strong><br>
+            <em>Zapier Specialist / Programmer</em> (Work from Home)</p>
+            <ul>
+                <li>Automated sending of documents to capture client signature via ‘Pandadoc’ and ‘Filevine’.</li>
+                <li>Automated the workflow for HR’s hiring procedure.</li>
+                <ul>
+                    <li>Applicant Tracking</li>
+                    <li>Automatic Interview Schedule Reminder</li>
+                </ul>
+            </ul>
 
             
-			
-			<h1>Technical Skills</h1>
 
-			<p><strong>Programming Languages:</strong><br>
-			VB.Net, C#, .Net, C, Java, Visual Basic, AngularJS, Javascript, PHP Laravel, VueJs</p>
+            <p><strong>June 2018 – June 2019 | Merav Pharmaceutical Enterprise Inc., Admin-Department</strong><br>
+            <em>Admin Officer</em></p>
 
-			<p><strong>Databases Management:</strong><br>
-			SQL Server, Postgresql, MySQL, Firebase DB</p>
+            <p><strong>January 2015 – May 2018 | Nutratech Biopharma Inc., IT-Department</strong><br>
+            <em>Jr. System Programmer</em></p>
+            <ul>
+                <li>Developed and Deployed an inventory system to complement the existing Accounting System of the company.</li>
+                <li>Developed a mobile app that serves as a ‘quick reporting’ tool for agents assigned in the field.</li>
+                <li>Improved the company’s security system by placing an automated disaster-control backups.</li>
+                <li>Improved the efficiency of employees by extracting ready-to-print reports/data from their existing accounting system.</li>
+            </ul>
 
-			<p><strong>Design & IDE Tools:</strong><br>
-			MS Visual Studio, Android Studio, Eclipse, NetBeans</p>
+            <p><strong>March 2014 – May 2014 | Coca-Cola FEMSA Philippines</strong><br>
+            <em>OJT - System Programmer</em></p>
+            <p>Improved the security level of the company by placing a monitoring system that logs every person that enters the company premises.</p>
 
-			<p><strong>Systems:</strong><br>
-			Windows Server 2016, Linux/Unix</p>
+            <h1>Technical Skills</h1>
 
+            <p><strong>Programming Languages:</strong><br>
+            VB.Net, C#, .Net, C, Java, Visual Basic, AngularJS, Javascript, PHP Laravel, VueJs</p>
+
+            <p><strong>Databases Management:</strong><br>
+            SQL Server, Postgresql, MySQL, Firebase DB</p>
+
+            <p><strong>Design & IDE Tools:</strong><br>
+            MS Visual Studio, Android Studio, Eclipse, NetBeans</p>
+
+            <p><strong>Systems:</strong><br>
+            Windows Server 2016, Linux/Unix</p>
 
             <h1>Education</h1>
             <p>MSU-Iligan Institute of Technology, Iligan City</p>
             <p><em>Bachelor of Science in Computer Science</em><br>Major in Software Engineering</p>
 
             <h1>Accomplishments</h1>
-            <ul >
+            <ul>
                 <li>Developed Web Applications to handle inventory management in company warehouses</li>
                 <li>Led, participated in the design, testing, and deployment of client-server applications in the company</li>
                 <li>Trained and mentored junior programmers in programming methodologies and best practices.</li>
                 <li>Setup automation workflows for a Personal Injury – Law Firm in Nevada, USA</li>
+                <li>Built an Engagement Monitoring System with real-time dashboard and automated CRM syncing to improve member retention for a London-based tech firm</li>
             </ul>
         </div>
     </div>
